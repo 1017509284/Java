@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="com.zhaomeng.User">
+<!--        调用默认构造函数进行注入-->
+<!--        <property name="name" value="zhaomeng"/>-->
+
+<!--        下标赋值-->
+<!--        <constructor-arg index="0" value="zhaomeng"/>-->
+
+<!--        类型赋值,若两个构造参数类型一样，则会出错，所以不建议使用-->
+<!--        <constructor-arg type="java.lang.String" value="zhaomeng"/>-->
+
+<!--        直接通过参数名来赋值-->
+        <constructor-arg name="name" value="zhaomeng"/>
+    </bean>
+
+    <bean id="userT" class="com.zhaomeng.UserT">
+
+    </bean>
+</beans>
