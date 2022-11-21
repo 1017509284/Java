@@ -1,57 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e81ee126-a12f-46c5-8d25-22f1e66c3822" name="变更" comment="" />
+    <list default="true" id="3913fd01-1921-44d2-9953-8eeace800377" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Annotation01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Annotation02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Annotation/src/main/java/com/zhaomeng/Reflection07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCL/src/main/java/con/zhaomeng/JCL01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCL/src/main/java/con/zhaomeng/JCL02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCL/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG4J2/src/main/java/com/zhaomeng/Log4j201.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG4J2/src/main/java/com/zhaomeng/Log4j202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG4J2/src/main/java/com/zhaomeng/Log4j203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG4J2/src/main/java/com/zhaomeng/Log4j204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG4J2/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/IQ/WaterPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0130/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0200/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0695/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0695/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0733/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0752/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0773/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0785/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0980/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0980/Solution01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode0980/Solution02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode1020/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode1034/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LeetCode1091/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/main/java/com/zhaomeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/main/java/com/zhaomeng/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/main/java/com/zhaomeng/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/main/java/com/zhaomeng/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/mybatis-01/src/test/java/com/zhaomeng/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLF4J/src/main/java/com/zhaomeng/SLF4J01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLF4J/src/main/java/com/zhaomeng/SLF4J02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLF4J/src/main/java/com/zhaomeng/SLF4J03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/main/java/com/zhaomeng/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/main/java/com/zhaomeng/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/main/java/com/zhaomeng/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/main/resources/userbeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-04-di/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/src/main/java/com/zhaomeng/pojo/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/src/main/java/com/zhaomeng/pojo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/src/main/java/com/zhaomeng/pojo/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-05-autowired/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/main/java/com/zhaomeng/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/main/java/com/zhaomeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/main/java/com/zhaomeng/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/main/java/com/zhaomeng/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-06-anno/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-07-appconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-07-appconfig/src/main/java/com/zhaomeng/config/ZhaomengConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-07-appconfig/src/main/java/com/zhaomeng/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-07-appconfig/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo01/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo01/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo01/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo01/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo02/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo02/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo02/UserServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo03/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo03/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo03/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-08-proxy/src/main/java/com/zhaomeng/demo03/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/java/com/zhaomeng/diy/DiyPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/java/com/zhaomeng/log/AfterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/java/com/zhaomeng/log/BeforeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/java/com/zhaomeng/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/java/com/zhaomeng/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring-09-aop/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestDaemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestLambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestThread07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/TestYield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread/src/main/java/com/zhaomeng/UnsafeByTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/com/zhaomeng/array/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/Singlethon/EnumSinglethon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/Singlethon/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/Singlethon/Hungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/Singlethon/Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/HuaweiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/HuaweiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/HuaweiRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/IProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/IRouterProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/IphoneProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/XiaomiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/XiaomiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/abstract1/XiaomiRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/TeslaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/WuLing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/method/WuLingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/simple/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/simple/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/simple/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/simple/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/src/main/java/com/zhaomeng/factory/simple/WuLing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/eulerLoop.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/g.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/g2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/g3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/hamilton.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph01/AdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph01/AdjacencyMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph01/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph02/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph02/GraphDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph03/BiPartitionDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph03/CycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph03/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph03/SingleSourcePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph04/GraphBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph04/SingleSourcePathBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph05/CutPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph06/HamiltonLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph06/HamiltonLoop2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph06/HamiltonLoop3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph06/HamiltonLoop4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph06/concept.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph07/EulerLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph07/concept.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/src/main/java/com/zhaomeng/graph08/WeightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphtheory/weightedgraph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Log4j/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Log4j/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Log4j/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Log4j/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Log4j/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Log4j/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-02-hellospring/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-02-hellospring/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/dao/UserDaoMysqlImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/dao/UserDaoMysqlImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/dao/UserDaoOracleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/dao/UserDaoOracleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/main/java/com/zhaomeng/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/main/java/com/zhaomeng/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/dao/UserDaoMysqlImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/dao/UserDaoMysqlImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/dao/UserDaoOracleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/dao/UserDaoOracleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/classes/com/zhaomeng/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/classes/com/zhaomeng/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/spring-ioc1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/spring-01-ioc1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tmp/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tmp/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tmp/test.log" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="29W4sj31MDzD3M3disxCE2p48BJ" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H2ewVm2O81uj56EPfsP1da09PN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/LeetCode&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+}]]></component>
+  <component name="RunManager" selected="应用程序.WaterPuzzle">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.LeetCode0695.Solution" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.LeetCode0695.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="WaterPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.IQ.WaterPuzzle" />
       <module name="LeetCode" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.IQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.WaterPuzzle" />
+        <item itemvalue="应用程序.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="e81ee126-a12f-46c5-8d25-22f1e66c3822" name="变更" comment="" />
-      <created>1653215715424</created>
+      <changelist id="3913fd01-1921-44d2-9953-8eeace800377" name="变更" comment="" />
+      <created>1667487847148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653215715424</updated>
-      <workItem from="1653215716657" duration="150000" />
-      <workItem from="1653215874908" duration="16000" />
-      <workItem from="1653215897887" duration="57000" />
+      <updated>1667487847148</updated>
+      <workItem from="1667487848770" duration="33991000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/LeetCode0695/Solution.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/LeetCode0695/Solution.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/LeetCode0695/Solution.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

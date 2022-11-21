@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:唯一绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.zhaomeng.dao.UserDao">
+<!--    id为要实现的方法名，type为sql语句返回值的类型的全路径-->
+    <select id="getUserList" resultType="com.zhaomeng.pojo.User">
+        select * from mybatis.user
+    </select>
+
+<!--    根据id查询用户的sql语句-->
+    <select id="getUserById" parameterType="int" resultType="com.zhaomeng.pojo.User">
+        select * from mybatis.user where id = #{id}
+    </select>
+
+    <!--    插入一个用户-->
+    <insert id="addUser" parameterType="com.zhaomeng.pojo.User">
+        insert into mybatis.user (id, name, pwd) values (#{id}, #{name}, #{pwd})
+    </insert>
+
+<!--    更新用户-->
+    <update id="updateUser" parameterType="com.zhaomeng.pojo.User">
+        update mybatis.user set name=#{name},pwd=#{pwd} where id = #{id}
+    </update>
+
+<!--    删除用户-->
+    <delete id="deleteUser" parameterType="int">
+        delete from mybatis.user where id = #{id}
+    </delete>
+</mapper>

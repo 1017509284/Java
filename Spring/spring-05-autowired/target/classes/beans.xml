@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+<!--    开启注解的支持-->
+    <context:annotation-config/>
+    <bean id="cat" class="com.zhaomeng.pojo.Cat"/>
+    <bean id="dog" class="com.zhaomeng.pojo.Dog"/>
+
+<!--    byName:会自动在容器上下文中查找，和自己对象set方法后面的值对应的beanid-->
+<!--    people类中有cat和dog，注入people时选择byname可以先去找已经注入的beanid为dog和cat的，并看这些bean id是否为set方法后面的值-->
+<!--    比如people类中的setCat方法，那么cat的注入时，beanid必须为cat，才能按照name找到，如果cat注入时的beanid为cat123，则通过byname注入失败-->
+
+<!--    byType：会自动在容器上下文查找，和自己对象属性类型相同的bean-->
+<!--    byType注入的限制：如果class中的属性字段的类型有重复，则byType此时无法完成注入-->
+<!--    <bean id="people" class="com.zhaomeng.pojo.People" autowire="byName">-->
+<!--        <property name="name" value="zhaomeng"/>-->
+<!--    </bean>-->
+
+    <bean id="people" class="com.zhaomeng.pojo.People"/>
+
+</beans>

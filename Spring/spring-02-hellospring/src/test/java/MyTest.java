@@ -14,7 +14,7 @@ public class MyTest {
         //! 对象现在都在spring中进行管理了，要使用的话，直接去取出来
         Hello hello = (Hello) context.getBean("hello");
 
-        System.out.println(hello.toString());
+        System.out.println(hello);
 
     }
 }
