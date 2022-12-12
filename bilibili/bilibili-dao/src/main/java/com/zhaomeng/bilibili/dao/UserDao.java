@@ -24,5 +24,5 @@ public interface UserDao {
 
     void updateUsers(User user);
 
-    void updateUserInfos(UserInfo userInfo);
+    Integer updateUserInfos(UserInfo userInfo);
 }

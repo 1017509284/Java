@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO MAPPER 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhaomeng.bilibili.dao.DemoDao">
-    <select id="query" parameterType="java.lang.Long" resultType="java.lang.Long">
-        select id from demo where id = #{id}
-    </select>
-
-</mapper>

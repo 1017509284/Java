@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JCL/JCL.iml" filepath="$PROJECT_DIR$/JCL/JCL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUL/JUL.iml" filepath="$PROJECT_DIR$/JUL/JUL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka/Kafka.iml" filepath="$PROJECT_DIR$/Kafka/Kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LOG4J2/LOG4J2.iml" filepath="$PROJECT_DIR$/LOG4J2/LOG4J2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Log4j/Log4j.iml" filepath="$PROJECT_DIR$/Log4j/Log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SLF4J/SLF4J.iml" filepath="$PROJECT_DIR$/SLF4J/SLF4J.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/springBoot/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thrift/Thrift.iml" filepath="$PROJECT_DIR$/Thrift/Thrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilibili/bilibili.iml" filepath="$PROJECT_DIR$/bilibili/bilibili.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilibili/bilibili-api/bilibili-api.iml" filepath="$PROJECT_DIR$/bilibili/bilibili-api/bilibili-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilibili/bilibili-dao/bilibili-dao.iml" filepath="$PROJECT_DIR$/bilibili/bilibili-dao/bilibili-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilibili/bilibili-service/bilibili-service.iml" filepath="$PROJECT_DIR$/bilibili/bilibili-service/bilibili-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataStructure/dataStructure.iml" filepath="$PROJECT_DIR$/dataStructure/dataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPattern/designPattern.iml" filepath="$PROJECT_DIR$/designPattern/designPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphtheory/graphtheory.iml" filepath="$PROJECT_DIR$/graphtheory/graphtheory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thrift/learn-thrift/learn-thrift.iml" filepath="$PROJECT_DIR$/Thrift/learn-thrift/learn-thrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/mybatis-01/mybatis-01.iml" filepath="$PROJECT_DIR$/Mybatis/mybatis-01/mybatis-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-02-hellospring/spring-02-hellospring.iml" filepath="$PROJECT_DIR$/Spring/spring-02-hellospring/spring-02-hellospring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-03-ioc2/spring-03-ioc2.iml" filepath="$PROJECT_DIR$/Spring/spring-03-ioc2/spring-03-ioc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-04-di/spring-04-di.iml" filepath="$PROJECT_DIR$/Spring/spring-04-di/spring-04-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-05-autowired/spring-05-autowired.iml" filepath="$PROJECT_DIR$/Spring/spring-05-autowired/spring-05-autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-06-anno/spring-06-anno.iml" filepath="$PROJECT_DIR$/Spring/spring-06-anno/spring-06-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-07-appconfig/spring-07-appconfig.iml" filepath="$PROJECT_DIR$/Spring/spring-07-appconfig/spring-07-appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-08-proxy/spring-08-proxy.iml" filepath="$PROJECT_DIR$/Spring/spring-08-proxy/spring-08-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-09-aop/spring-09-aop.iml" filepath="$PROJECT_DIR$/Spring/spring-09-aop/spring-09-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/spring-01-ioc1/spring-ioc1.iml" filepath="$PROJECT_DIR$/Spring/spring-01-ioc1/spring-ioc1.iml" />
+    </modules>
+  </component>
+</project>

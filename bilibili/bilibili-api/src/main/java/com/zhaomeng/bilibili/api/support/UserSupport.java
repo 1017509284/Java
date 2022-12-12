@@ -17,10 +17,13 @@ import javax.servlet.ServletRequestAttributeEvent;
 public class UserSupport {
 
     public Long getCurrentUserId() {
+        // !抓取前段传来的请求
         ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
 
+        // !拿到请求中的token
         String token = requestAttributes.getRequest().getHeader("token");
 
+        // !验证token，并拿到token中的userId
         Long userId = TokenUtil.verifyToken(token);
 
         if (userId < 0) {

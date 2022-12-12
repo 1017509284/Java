@@ -23,6 +23,11 @@ public class UserApi {
     @Autowired
     private UserSupport userSupport;
 
+    @GetMapping("/check")
+    public String check() {
+        return "hello world";
+    }
+
     // !查询用户信息
     @GetMapping("/users")
     public JsonResponse<User> getUserInfo() {
@@ -67,5 +72,6 @@ public class UserApi {
         Long userId = userSupport.getCurrentUserId();
         userInfo.setUserId(userId);
         userService.updateUserInfos(userInfo);
+        return JsonResponse.success();
     }
 }

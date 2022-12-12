@@ -7,6 +7,8 @@
 
 <!--    p命名空间注入，可以直接注入属性的值，使用set注入-->
     <bean id="user" class="com.zhaomeng.pojo.User" p:name="zhaomeng" p:age="22"/>
-<!--    c命名空间注入，通过构造器注入-->
-    <bean id="user2" class="com.zhaomeng.pojo.User" c:age="18" c:name="zhaomeng"/>
+<!--    c命名空间注入，通过构造器注入，默认scope为单例模式scope="singleton"-->
+<!--    单例模式：每次getbean出来的对象hashcode都是一样的，都是同一个对象-->
+<!--    原型模型：每次getbean出来的对象hashcode不同，不是一个对象-->
+    <bean id="user2" class="com.zhaomeng.pojo.User" c:age="18" c:name="zhaomeng" scope="singleton"/>
 </beans>

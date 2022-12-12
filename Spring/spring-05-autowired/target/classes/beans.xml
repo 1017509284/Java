@@ -9,6 +9,7 @@
 <!--    开启注解的支持-->
     <context:annotation-config/>
     <bean id="cat" class="com.zhaomeng.pojo.Cat"/>
+    <bean id="cat222" class="com.zhaomeng.pojo.Cat"/>
     <bean id="dog" class="com.zhaomeng.pojo.Dog"/>
 
 <!--    byName:会自动在容器上下文中查找，和自己对象set方法后面的值对应的beanid-->

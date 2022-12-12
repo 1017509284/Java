@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JVM" />
+        <module name="spring-02-hellospring" />
+        <module name="mybatis-01" />
+        <module name="Kafka" />
+        <module name="designPattern" />
+        <module name="SpringBoot" />
+        <module name="spring-08-proxy" />
+        <module name="LOG4J2" />
+        <module name="SLF4J" />
+        <module name="spring-06-anno" />
+        <module name="spring-09-aop" />
+        <module name="JUC" />
+        <module name="spring-ioc1" />
+        <module name="LeetCode" />
+        <module name="JUL" />
+        <module name="spring-04-di" />
+        <module name="bilibili-service" />
+        <module name="bilibili-dao" />
+        <module name="dataStructure" />
+        <module name="spring-05-autowired" />
+        <module name="Annotation" />
+        <module name="Thread" />
+        <module name="JCL" />
+        <module name="bilibili-api" />
+        <module name="learn-thrift" />
+        <module name="Log4j" />
+        <module name="spring-03-ioc2" />
+        <module name="spring-07-appconfig" />
+        <module name="graphtheory" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Annotation" target="1.8" />
+      <module name="bilibili" target="1.8" />
+      <module name="bilibili-api" target="1.8" />
+      <module name="bilibili-dao" target="1.8" />
+      <module name="bilibili-service" target="1.8" />
+      <module name="dataStructure" target="1.8" />
+      <module name="designPattern" target="1.8" />
+      <module name="graphtheory" target="1.8" />
+      <module name="JCL" target="1.8" />
+      <module name="JUC" target="1.8" />
+      <module name="JUL" target="1.8" />
+      <module name="JVM" target="1.8" />
+      <module name="Kafka" target="1.8" />
+      <module name="learn-thrift" target="1.8" />
+      <module name="LeetCode" target="1.8" />
+      <module name="Log4j" target="1.8" />
+      <module name="LOG4J2" target="1.8" />
+      <module name="Mybatis" target="1.8" />
+      <module name="mybatis-01" target="1.8" />
+      <module name="SLF4J" target="1.8" />
+      <module name="Spring" target="1.8" />
+      <module name="spring-02-hellospring" target="1.8" />
+      <module name="spring-03-ioc2" target="1.8" />
+      <module name="spring-04-di" target="1.8" />
+      <module name="spring-05-autowired" target="1.8" />
+      <module name="spring-06-anno" target="1.8" />
+      <module name="spring-07-appconfig" target="1.8" />
+      <module name="spring-08-proxy" target="1.8" />
+      <module name="spring-09-aop" target="1.8" />
+      <module name="spring-ioc1" target="1.8" />
+      <module name="SpringBoot" target="1.8" />
+      <module name="Thread" target="1.8" />
+      <module name="Thrift" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
+      <module name="bilibili-api" options="-parameters" />
+      <module name="bilibili-dao" options="-parameters" />
+      <module name="bilibili-service" options="-parameters" />
+    </option>
+  </component>
+</project>
