@@ -6,6 +6,8 @@ import com.zhaomeng.bilibili.domain.FollowingGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class FollowingGroupService {
 
@@ -20,5 +22,17 @@ public class FollowingGroupService {
     // !根据id查询关注的列表
     public FollowingGroup getById(Long id) {
         return followingGroupDao.getById(id);
+    }
+
+    public List<FollowingGroup> getByUserId(Long userId) {
+        return followingGroupDao.getByUserId(userId);
+    }
+
+    public void addFollowingGroup(FollowingGroup followingGroup) {
+        followingGroupDao.addFollowingGroup(followingGroup);
+    }
+
+    public List<FollowingGroup> getUserFollowingGroups(Long userId) {
+        return followingGroupDao.getUserFollowingGroups(userId);
     }
 }

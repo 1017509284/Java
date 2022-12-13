@@ -13,4 +13,22 @@
             t_user_following(userId, followingId, groupId, createTime)
         VALUES (#{userId}, #{followingId}, #{groupId}, #{createTime})
     </insert>
+
+    <select id="getUserFans" parameterType="java.lang.Long" resultType="com.zhaomeng.bilibili.domain.UserFollowing">
+        select
+            *
+        from
+            t_user_following
+        where
+            followingId = #{followingId}
+    </select>
+
+    <select id="getUserFollowings" parameterType="java.lang.Long" resultType="com.zhaomeng.bilibili.domain.UserFollowing">
+        select
+            *
+        from
+            t_user_following
+        where
+            userId = #{userId}
+    </select>
 </mapper>

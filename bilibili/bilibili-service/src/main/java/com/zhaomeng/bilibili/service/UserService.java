@@ -1,7 +1,9 @@
 package com.zhaomeng.bilibili.service;
 
+import com.alibaba.fastjson.JSONObject;
 import com.mysql.cj.util.StringUtils;
 import com.zhaomeng.bilibili.dao.UserDao;
+import com.zhaomeng.bilibili.domain.PageResult;
 import com.zhaomeng.bilibili.domain.User;
 import com.zhaomeng.bilibili.domain.UserInfo;
 import com.zhaomeng.bilibili.domain.constant.UserConstant;
@@ -12,7 +14,10 @@ import com.zhaomeng.bilibili.service.util.TokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author: zhaomeng
@@ -119,5 +124,24 @@ public class UserService {
 
     public User getUserById(Long id) {
         return userDao.getUserById(id);
+    }
+
+    public List<UserInfo> getUserInfoByUserIds(Set<Long> userIdList) {
+        return userDao.getUserInfoByUserIds(userIdList);
+    }
+
+    public PageResult<UserInfo> pageListUserInfos(JSONObject params) {
+        Integer no = params.getInteger("no");
+        Integer size = params.getInteger("size");
+
+        params.put("start", (no - 1) * size);
+        params.put("limit", size);
+
+        Integer total = userDao.pageCountUserInfos(params);
+        List<UserInfo> userInfoList = new ArrayList<>();
+        if (total > 0) {
+            userInfoList = userDao.pageUserInfos(params);
+        }
+        return new PageResult<>(total, userInfoList);
     }
 }

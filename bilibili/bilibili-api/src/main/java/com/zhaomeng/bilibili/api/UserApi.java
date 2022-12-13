@@ -1,13 +1,18 @@
 package com.zhaomeng.bilibili.api;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zhaomeng.bilibili.api.support.UserSupport;
 import com.zhaomeng.bilibili.domain.JsonResponse;
+import com.zhaomeng.bilibili.domain.PageResult;
 import com.zhaomeng.bilibili.domain.User;
 import com.zhaomeng.bilibili.domain.UserInfo;
+import com.zhaomeng.bilibili.service.UserFollowingService;
 import com.zhaomeng.bilibili.service.UserService;
 import com.zhaomeng.bilibili.service.util.RSAUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @author: zhaomeng
@@ -22,6 +27,9 @@ public class UserApi {
 
     @Autowired
     private UserSupport userSupport;
+
+    @Autowired
+    private UserFollowingService userFollowingService;
 
     @GetMapping("/check")
     public String check() {
@@ -73,5 +81,23 @@ public class UserApi {
         userInfo.setUserId(userId);
         userService.updateUserInfos(userInfo);
         return JsonResponse.success();
+    }
+
+    // !用户分页查询
+    // !@RequestParam表示此参数必须传，nick为可选参数
+    @GetMapping("user-infos")
+    public JsonResponse<PageResult<UserInfo>> pageListUserInfos(@RequestParam Integer no, @RequestParam Integer size, String nick) {
+        Long userId = userSupport.getCurrentUserId();
+        JSONObject params = new JSONObject();
+        params.put("no", no);
+        params.put("size", size);
+        params.put("nock", nick);
+        params.put("userId", userId);
+        PageResult<UserInfo> result = userService.pageListUserInfos(params);
+        if (result.getTotal() > 0) {
+            List<UserInfo> checkedUserInfoList = userFollowingService.checkFollowingStatus(result.getList(), userId);
+            result.setList(checkedUserInfoList);
+        }
+        return new JsonResponse<>(result);
     }
 }
